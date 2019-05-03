@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>jogo da velha</title>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2> Seja vem vindo ! <button onclick="jogoDaVelha.reiniciar()">  reinicar o jogo </button> </h2>
+    <div id="game1" class="game"> </div>
+    <script  src="js/jogo_da_velha.js"></script>   
+    <script>   
+        jogoDaVelha.init(document.getElementById('game1'));    
+        jogoDaVelha.draw();     
+    </script>
+    
+</body>
+
+</html>
